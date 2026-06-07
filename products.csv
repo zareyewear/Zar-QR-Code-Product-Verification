@@ -1,6 +1,4 @@
-Token,ProductName,ProductCode,BatchNumber,Seller,SellerMob,Status,Description,Marketedby
-8F2K9X7P4M,Brilliant Dye Blue,BD001,B2026001,Zeenat Optical,09851564480,Genuine,Premium Natural Dye – Rich Blue Shade,Zar Eyewear
-3T5R1W8Q6N,Brilliant Dye Red,BD002,B2026002,2026-01-15,2028-01-15,Genuine,Premium Natural Dye – Vibrant Red Shade,Zar Eyewear
-7M4J2E9H5L,Brilliant Dye Yellow,BD003,B2026003,2026-02-01,2028-02-01,Genuine,Premium Natural Dye – Sunshine Yellow Shade,Zar Eyewear
-X0Y3N8P,Brilliant Dye Green,BD004,B2026004,2026-02-15,2028-02-15,Genuine,Premium Natural Dye – Forest Green Shade,https://via.placeholder.com/400x400/166534/ffffff?text=BD004
-9K1C4A7D2F,Brilliant Dye Purple,BD005,B2026005,2026-03-01,2028-03-01,Genuine,Premium Natural Dye – Royal Purple Shade,https://via.placeholder.com/400x400/5b21b6/ffffff?text=BD005
+Token	ProductName	ProductCode	BatchNumber	ManufacturingDate	ExpiryDate	Status	Description	ImageURL
+8F2K9X7P4M	ZAR-TR	ZAR-72102	ZAR-B2026001	6/5/2026	6/5/2036	Genuine	Premium eyewear crafted for all-day comfort. Designed for daily use with a fancy and stylish appeal. Features a sleek gray frame that complements every look. Made with premium quality materials by ZAR Eyewear. Sold by Zeenat Optical. Manufacturer: ZAR Eyewear | 9851564480 | zareyewears@gmail.com | Seller: Zeenat Optical | 9932840449	
+3T5R1W8Q6N	ZAR-TR	ZAR-72103	ZAR-B2026002	6/5/2026	6/5/2036	Genuine	Premium eyewear crafted for all-day comfort. Designed for daily use with a fancy and stylish appeal. Features a bold matte black frame for a modern and sophisticated look. Made with premium quality materials by ZAR Eyewear. Sold by Zeenat Optical. Manufacturer: ZAR Eyewear | 9851564480 | zareyewears@gmail.com | Seller: Zeenat Optical | 9932840449	
+7M4J2E9H5L	ZAR-TR	ZAR-72104	ZAR-B2026003	6/5/2026	6/5/2036	Genuine	Premium eyewear crafted for all-day comfort. Designed for daily use with a fancy and stylish appeal. Features a warm brownish frame that adds a classic and elegant touch. Made with premium quality materials by ZAR Eyewear. Sold by Zeenat Optical. Manufacturer: ZAR Eyewear | 9851564480 | zareyewears@gmail.com | Seller: Zeenat Optical | 9932840449	
