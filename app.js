@@ -4,7 +4,7 @@
  */
 
 const CONFIG = {
-  SHEET_CSV_URL: "../products.csv",
+  SHEET_CSV_URL: "/Zar-QR-Code-Product-Verification/products.csv",
   COLUMNS: {
     token:            "Token",
     productName:      "ProductName",
