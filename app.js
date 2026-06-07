@@ -314,7 +314,7 @@ async function init() {
   }
 
   // 2. Validate SHEET_CSV_URL is configured
-  if (CONFIG.SHEET_CSV_URL.includes("https://docs.google.com/spreadsheets/d/e/2PACX-1vRfPht902sLeiY_BiRG4VHkNkbHszAWGHbgDB8uBhiVb-SVRBsfJVqfisWNRAbjO4UHLhz3lnopa6fl/pub?output=csv")) {
+  if (CONFIG.SHEET_CSV_URL.includes("PASTE_YOUR_SHEET_ID_HERE")) {
     console.error(
       "AuthentiScan: SHEET_CSV_URL is not configured.\n" +
       "Please edit app.js and replace PASTE_YOUR_SHEET_ID_HERE with your sheet URL."
