@@ -565,3 +565,65 @@ body {
   .hero-visual { flex-shrink: 0; }
   .qr-mock { width: 220px; height: 220px; }
 }
+/* ===== ZAR PREMIUM THEME ===== */
+
+body{
+  background:linear-gradient(
+  135deg,
+  #f8f6f2,
+  #ffffff
+  );
+}
+
+.site-header{
+  background:#111;
+  border-bottom:3px solid #B8860B;
+}
+
+.zar-logo{
+  width:120px;
+  border-radius:10px;
+}
+
+.zar-text h2{
+  color:#B8860B;
+  margin:0;
+  font-size:1.2rem;
+}
+
+.zar-text p{
+  color:white;
+  margin:0;
+  font-size:.8rem;
+}
+
+.state-card{
+  border:2px solid #B8860B;
+}
+
+.success-badge{
+  background:linear-gradient(
+  135deg,
+  #B8860B,
+  #8B6914
+  ) !important;
+
+  color:white;
+  font-weight:700;
+  box-shadow:
+  0 6px 20px rgba(184,134,11,.35);
+}
+
+.detail-value--mono{
+  color:#B8860B;
+  font-weight:700;
+}
+
+.site-footer{
+  background:#111;
+  color:#ddd;
+}
+
+.site-footer strong{
+  color:#B8860B;
+}
