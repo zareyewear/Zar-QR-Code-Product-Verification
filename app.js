@@ -10,11 +10,11 @@ const CONFIG = {
     productName:      "ProductName",
     productCode:      "ProductCode",
     batchNumber:      "BatchNumber",
-    manufacturingDate:"ManufacturingDate",
-    expiryDate:       "ExpiryDate",
+    seller:           "seller",
+    sellerMob:        "sellerMob",
     status:           "Status",
     description:      "Description",
-    imageURL:         "ImageURL",
+    Marketedby:         "Marketedby",
   },
 };
 
