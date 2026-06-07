@@ -1,6 +1,6 @@
-Token,ProductName,ProductCode,BatchNumber,ManufacturingDate,ExpiryDate,Status,Description,ImageURL
-8F2K9X7P4M,Brilliant Dye Blue,BD001,B2026001,2026-01-01,2028-01-01,Genuine,Premium Natural Dye – Rich Blue Shade,https://via.placeholder.com/400x400/1a6b3c/ffffff?text=BD001
-3T5R1W8Q6N,Brilliant Dye Red,BD002,B2026002,2026-01-15,2028-01-15,Genuine,Premium Natural Dye – Vibrant Red Shade,https://via.placeholder.com/400x400/8b1a1a/ffffff?text=BD002
-7M4J2E9H5L,Brilliant Dye Yellow,BD003,B2026003,2026-02-01,2028-02-01,Genuine,Premium Natural Dye – Sunshine Yellow Shade,https://via.placeholder.com/400x400/92400e/ffffff?text=BD003
-2V6X0Y3N8P,Brilliant Dye Green,BD004,B2026004,2026-02-15,2028-02-15,Genuine,Premium Natural Dye – Forest Green Shade,https://via.placeholder.com/400x400/166534/ffffff?text=BD004
+Token,ProductName,ProductCode,BatchNumber,Seller,SellerMob,Status,Description,Marketedby
+8F2K9X7P4M,Brilliant Dye Blue,BD001,B2026001,Zeenat Optical,09851564480,Genuine,Premium Natural Dye – Rich Blue Shade,Zar Eyewear
+3T5R1W8Q6N,Brilliant Dye Red,BD002,B2026002,2026-01-15,2028-01-15,Genuine,Premium Natural Dye – Vibrant Red Shade,Zar Eyewear
+7M4J2E9H5L,Brilliant Dye Yellow,BD003,B2026003,2026-02-01,2028-02-01,Genuine,Premium Natural Dye – Sunshine Yellow Shade,Zar Eyewear
+X0Y3N8P,Brilliant Dye Green,BD004,B2026004,2026-02-15,2028-02-15,Genuine,Premium Natural Dye – Forest Green Shade,https://via.placeholder.com/400x400/166534/ffffff?text=BD004
 9K1C4A7D2F,Brilliant Dye Purple,BD005,B2026005,2026-03-01,2028-03-01,Genuine,Premium Natural Dye – Royal Purple Shade,https://via.placeholder.com/400x400/5b21b6/ffffff?text=BD005
