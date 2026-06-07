@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AuthentiScan | Product Authentication System</title>
+  <meta name="description" content="Scan the QR code on your product to instantly verify its authenticity." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="home-page">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-mark">&#10003;</span>
+        <span class="logo-text">AuthentiScan</span>
+      </div>
+      <p class="header-tagline">Trusted Product Verification</p>
+    </div>
+  </header>
+
+  <main class="home-main">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-badge">Free &bull; Instant &bull; Reliable</div>
+        <h1 class="hero-title">Is your product <em>genuine?</em></h1>
+        <p class="hero-desc">Scan the QR code on your product package to instantly verify its authenticity. Our system checks every product against a secure database in seconds.</p>
+        <div class="hero-steps">
+          <div class="step"><span class="step-num">1</span><span class="step-text">Find the QR code on your product</span></div>
+          <div class="step-arrow">&#8594;</div>
+          <div class="step"><span class="step-num">2</span><span class="step-text">Scan with your phone camera</span></div>
+          <div class="step-arrow">&#8594;</div>
+          <div class="step"><span class="step-num">3</span><span class="step-text">Get instant verification</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="qr-mock">
+          <div class="qr-mock-inner">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="qr-svg">
+              <rect x="10" y="10" width="30" height="30" rx="3" fill="currentColor"/>
+              <rect x="15" y="15" width="20" height="20" rx="2" fill="white"/>
+              <rect x="18" y="18" width="14" height="14" rx="1" fill="currentColor"/>
+              <rect x="60" y="10" width="30" height="30" rx="3" fill="currentColor"/>
+              <rect x="65" y="15" width="20" height="20" rx="2" fill="white"/>
+              <rect x="68" y="18" width="14" height="14" rx="1" fill="currentColor"/>
+              <rect x="10" y="60" width="30" height="30" rx="3" fill="currentColor"/>
+              <rect x="15" y="65" width="20" height="20" rx="2" fill="white"/>
+              <rect x="18" y="68" width="14" height="14" rx="1" fill="currentColor"/>
+              <rect x="50" y="50" width="8" height="8" fill="currentColor"/>
+              <rect x="62" y="50" width="8" height="8" fill="currentColor"/>
+              <rect x="74" y="50" width="8" height="8" fill="currentColor"/>
+              <rect x="86" y="50" width="8" height="8" fill="currentColor"/>
+              <rect x="50" y="62" width="8" height="8" fill="currentColor"/>
+              <rect x="74" y="62" width="8" height="8" fill="currentColor"/>
+              <rect x="50" y="74" width="8" height="8" fill="currentColor"/>
+              <rect x="62" y="74" width="8" height="8" fill="currentColor"/>
+              <rect x="74" y="74" width="8" height="8" fill="currentColor"/>
+              <rect x="86" y="74" width="8" height="8" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="scan-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2 class="section-title">How It Works</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">&#128274;</div>
+          <h3>Unique Tokens</h3>
+          <p>Every product carries a cryptographically random token embedded in its QR code — impossible to guess or duplicate.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#9889;</div>
+          <h3>Instant Results</h3>
+          <p>Verification happens in under 2 seconds. No app download required — works with any smartphone camera.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#128200;</div>
+          <h3>Full Traceability</h3>
+          <p>Each verified product shows batch number, manufacturing date, expiry date, and complete product details.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Secured by <strong>AuthentiScan</strong> &mdash; Powered by open-source technology</p>
+    <p class="footer-sub">This verification is provided free of charge.</p>
+  </footer>
+
+</body>
+</html>
