@@ -62,7 +62,7 @@ function parseCSV(text) {
     }
 
     if (ch === '"')  { inQuotes = true; i++; continue; }
-    if (ch === ",")  { row.push(field.trim()); field = ""; i++; continue; }
+    if (ch === "\t") { row.push(field.trim()); field = ""; i++; continue; }
 
     if (ch === "\r" && next === "\n") {
       row.push(field.trim()); rows.push(row); row = []; field = ""; i += 2; continue;
