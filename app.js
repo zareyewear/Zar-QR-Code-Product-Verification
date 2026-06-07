@@ -26,7 +26,7 @@ const CONFIG = {
   // Replace with your Google Sheet published CSV URL
   // Example:
   // "https://docs.google.com/spreadsheets/d/e/2PACX-.../pub?gid=0&single=true&output=csv"
-  SHEET_CSV_URL: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRfPht902sLeiY_BiRG4VHkNkbHszAWGHbgDB8uBhiVb-SVRBsfJVqfisWNRAbjO4UHLhz3lnopa6fl/pub?output=csv",
+  SHEET_CSV_URL: "../products.csv",
 
   // Column names in your Google Sheet (case-sensitive, must match headers exactly)
   COLUMNS: {
