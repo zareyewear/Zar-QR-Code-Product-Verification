@@ -15,6 +15,12 @@ const CONFIG = {
     status:            "Status",
     description:       "Description",
     imageURL:          "ImageURL",
+   manufacturer: "Manufacturer",
+seller: "Seller",
+phone: "Phone",
+email: "Email",
+colour: "Colour",
+frameType: "FrameType",
   },
 };
  
