@@ -137,6 +137,12 @@ function renderSuccess(product, token) {
   set("mfg-date",     formatDate(product[C.manufacturingDate]));
   set("exp-date",     formatDate(product[C.expiryDate]));
   set("description",  product[C.description]);
+ set("manufacturer", product[C.manufacturer]);
+set("seller", product[C.seller]);
+set("phone", product[C.phone]);
+set("email", product[C.email]);
+set("colour", product[C.colour]);
+set("frame-type", product[C.frameType]);
   set("token-display", token.toUpperCase());
  
   const timeEl = $("verify-time");
