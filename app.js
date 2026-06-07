@@ -26,7 +26,7 @@ const CONFIG = {
   // Replace with your Google Sheet published CSV URL
   // Example:
   // "https://docs.google.com/spreadsheets/d/e/2PACX-.../pub?gid=0&single=true&output=csv"
-  SHEET_CSV_URL: "https://docs.google.com/spreadsheets/d/e/PASTE_YOUR_SHEET_ID_HERE/pub?gid=0&single=true&output=csv",
+  SHEET_CSV_URL: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRfPht902sLeiY_BiRG4VHkNkbHszAWGHbgDB8uBhiVb-SVRBsfJVqfisWNRAbjO4UHLhz3lnopa6fl/pub?output=csv",
 
   // Column names in your Google Sheet (case-sensitive, must match headers exactly)
   COLUMNS: {
@@ -314,7 +314,7 @@ async function init() {
   }
 
   // 2. Validate SHEET_CSV_URL is configured
-  if (CONFIG.SHEET_CSV_URL.includes("PASTE_YOUR_SHEET_ID_HERE")) {
+  if (CONFIG.SHEET_CSV_URL.includes("https://docs.google.com/spreadsheets/d/e/2PACX-1vRfPht902sLeiY_BiRG4VHkNkbHszAWGHbgDB8uBhiVb-SVRBsfJVqfisWNRAbjO4UHLhz3lnopa6fl/pub?output=csv")) {
     console.error(
       "AuthentiScan: SHEET_CSV_URL is not configured.\n" +
       "Please edit app.js and replace PASTE_YOUR_SHEET_ID_HERE with your sheet URL."
